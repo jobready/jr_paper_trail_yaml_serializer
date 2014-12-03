@@ -1,3 +1,5 @@
+require 'yaml'
+
 # Custom YAML sanitizer for JobReady projects. Fixes issues with serialising
 # carrierwave columns when carrierwave-cascade is involved.
 module PaperTrail
@@ -7,7 +9,7 @@ module PaperTrail
         extend self
 
         def load(yaml_string)
-          ::YAML.load(string)
+          ::YAML.load(yaml_string)
         end
 
         def dump(object)
