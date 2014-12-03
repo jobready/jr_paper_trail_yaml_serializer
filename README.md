@@ -9,7 +9,7 @@ does. :)
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'jr_paper_trail_yaml_serializer'
+gem 'jr_paper_trail_yaml_serializer', github: 'jobready/jr_paper_trail_yaml_serializer'
 ```
 
 And then execute:
