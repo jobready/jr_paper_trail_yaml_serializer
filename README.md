@@ -1,5 +1,7 @@
 # JobReady's paper_trail YAML Serializer
 
+This project is no longer in production use (AC-6546). July 2018. #codegraveyard
+
 paper_trail's default YAML serializer doesn't play nicely with
 carrierwave-cascade. The YAML serializer defined in this gem
 does. :)
